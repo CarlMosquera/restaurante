@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+  background-image:url(../img/litoralpacifico.png);
+  width:auto !important;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open Sans', Arial, 'Helvetica Neue', Sans-serif, Verdana;
+}
+.page-wrap {
+    text-align: center;
+    min-height: 10vh;
+    padding: 5px; /* Ajusta el espaciado interno según sea necesario */
+    color: #fff; /* Ajusta el color del texto según sea necesario */
+    background-color: #ececec; /* Establece el color de fondo */
+}
+/* Estilos para pestañas del proyecto */
+.project-tab {
+    background: #1d70B7;
+    color: #eee;
+    padding: 10%;
+    margin-top: -8%;
+}
+
+.project-tab #tabs {
+    background: #1d70B7;
+    color: #eee;
+}
+
+.project-tab #tabs h1.section-title {
+    color: #eee;
+}
+
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #cc6d00;
+    background-color: transparent;
+    border-color: transparent transparent #eee;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #cc6d00;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.project-tab .nav-link:hover {
+    border: none;
+}
+
+.project-tab thead {
+    background: #f3f3f3;
+    color: #333;
+}
+
+.project-tab a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+.nav.nav-tabs {
+    background-color: #1d70B7; /* Color de fondo de la barra de pestañas */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para los elementos de la lista */
+.nav.nav-tabs .nav-item {
+    margin-bottom: 0; /* Elimina el margen inferior predeterminado */
+}
+
+/* Estilos para los enlaces de la lista */
+.nav.nav-tabs .nav-link {
+    color: #cc6d00; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 20px; /* Espaciado interno horizontal y vertical */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+/* Estilos para los enlaces activos o seleccionados */
+.nav.nav-tabs .nav-item.show .nav-link, 
+.nav.nav-tabs .nav-link.active {
+    color: #cc6d00; /* Color del texto activo o seleccionado */
+    background-color: transparent; /* Fondo transparente */
+    border-color: transparent transparent #f3f3f3; /* Color del borde inferior */
+    border-bottom: 3px solid !important; /* Línea inferior indicativa del enlace activo */
+}
+
+/* Estilos para los enlaces al pasar el ratón sobre ellos */
+.nav.nav-tabs .nav-link:hover {
+    background-color: #1d70B7; /* Cambia el color de fondo al pasar el ratón */
+    color: #fff; /* Cambia el color del texto al pasar el ratón */
+}
+
+/* Estilos adicionales según sea necesario */
+
+/* Estilos para los botones */
+.btn-group {
+    display: none; /* Inicialmente oculto */
+    margin-top: 10px;
+}
+
+.btn-group .btn {
+    margin-right: 5px;
+}
+
+/* Estilos para la barra de búsqueda */
+.input-group {
+    display: none; /* Inicialmente oculto */
+    margin-top: 10px;
+    max-width: 300px; /* Ajusta el ancho según sea necesario */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input-group input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
